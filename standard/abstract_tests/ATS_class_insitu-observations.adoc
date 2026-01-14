@@ -14,14 +14,14 @@ include::./insitu-observations/ATS_test_collection_data_queries.adoc[]
 
 include::./insitu-observations/ATS_test_collection_parameter_names.adoc[]
 
+==== Data query response format
+
+include::./insitu-observations/ATS_test_data_query_response_format.adoc[]
+
 ==== Collection custom dimensions
 
 include::./insitu-observations/ATS_test_collection_custom_dimensions.adoc[]
 
-==== Coveragejson parameters
+==== CoverageJSON parameters
 
 include::./insitu-observations/ATS_test_coveragejson_parameters.adoc[]
-
-==== Data query response format
-
-include::./insitu-observations/ATS_test_data_query_response_format.adoc[]
