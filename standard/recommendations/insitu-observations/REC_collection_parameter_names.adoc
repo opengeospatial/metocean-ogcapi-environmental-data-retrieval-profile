@@ -2,5 +2,5 @@
 [width="90%",cols="2,6a"]
 |===
 ^|*Recommentation {counter:rec-id}* |*/rec/insitu-observations/collection_parameter_names*
-^|A | Each `measurementType.method` bject in `parameter_names` SHOULD follow the CF-convention cell methods https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch07s03.html and use a value from the list in https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ape.html.
+^|A | Each `measurementType.method` object in `parameter_names` SHOULD follow the CF-convention cell methods https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ch07s03.html and use a value from the list in https://cfconventions.org/Data/cf-conventions/cf-conventions-1.7/build/ape.html.
 |===
