@@ -1,0 +1,9 @@
+[[req_nwp_collection_granularity]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/nwp/collection_granularity*
+^|A |A collection SHALL represent and describe a model (i.e. ``/collections/{collectionId}``).
+^|B |A collection instance SHALL represent and describe a model run (i.e. ``/collections/{collectionId}/instances/{instanceId}``).
+^|C |A collection instance identifier (``id``) SHALL be represented by an RFC3339 datestamp.
+^|D |A collection's temporal instance or interval SHALL represent a timestep or timesteps of a model run (e.g. ``/collections/{collectionId}/instances/{instanceId}/position?datetime=2026-01-16T17:00:00Z``).
+|===

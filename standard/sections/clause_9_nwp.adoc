@@ -1,0 +1,23 @@
+== Numerical Weather Prediction
+
+=== Requirements Class "Numerical Weather Prediction"
+
+include::../requirements/requirements_class_nwp.adoc[]
+
+=== Collection parameter names
+
+Parameter names is an object, containing parameter objects with metadata about all parameters the collection contains.
+
+include::../requirements/nwp/REQ_collection_parameter_names.adoc[]
+
+=== Collection granularity
+
+The organization of NWP data advertised as collections/instances.
+
+include::../requirements/nwp/REQ_collection_granularity.adoc[]
+
+=== Collection data queries
+
+The types of data queries implemented in a collection.
+
+include::../requirements/nwp/REQ_collection_data_queries.adoc[]

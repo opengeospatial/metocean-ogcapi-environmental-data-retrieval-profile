@@ -1,0 +1,19 @@
+[[ats_nwp]]
+====
+[%metadata]
+label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/nwp
+subject:: Requirements Class "Numerical Weather Prediction"
+classification:: Target Type:Web API
+====
+
+==== Collection parameter names
+
+include::./nwp/ATS_test_collection_parameter_names.adoc[]
+
+==== Collection granularity
+
+include::./nwp/ATS_test_collection_granularity.adoc[]
+
+==== Collection data queries
+
+include::./nwp/ATS_test_collection_data_queries.adoc[]

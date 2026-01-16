@@ -1,0 +1,8 @@
+[[req_nwp_collection_parameter_names]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/nwp/collection_parameter_names*
+^|A |Global Deterministic NWP parameters listed in APPENDIX 2.2.1. of the https://library.wmo.int/viewer/35703[Manual on the WMO Integrated Processing and Prediction System (WMO-No. 485)] (WIPPS Manual) SHALL be provided by the server using ECMWF Short Names as described in the <<appendix-d>>.
+^|B |Parameter names as described in the <<appendix-d>> SHALL be provided in a parameter name description using the ``observedProperty.label`` property.
+^|C |ECMWF short names as described in the <<appendix-d>> SHALL be provided in a parameter name description using the ``observedProperty.id`` property.
+|===

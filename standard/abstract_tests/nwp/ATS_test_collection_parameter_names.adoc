@@ -1,0 +1,33 @@
+[[ats_nwp_collection_parameter_names]]
+====
+[%metadata]
+label:: /conf/nwp/collection_parameter_names
+subject:: /req/nwp/collection_parameter_names
+test-purpose:: Validate that a MetOcean EDR API has implemented the mandatory parameter names for NWP.
+
+[.component,class=test method]
+=====
+
+[.component,class=step]
+--
+Issue an HTTP GET request to path `/collections`.
+--
+
+[.component,class=step]
+--
+Check that the value of the returned HTTP status header is 200.
+--
+
+[.component,class=step]
+--
+In the `collections` array in the returned document, check that each collection has a `data_queries` array containing `position` and `cube`.
+--
+
+[.component,class=step]
+--
+For each matching collection ``parameter_names`` object, check that all of the <<appendix-d>> ECMWF short names are present via each parameter's `observedProperty.id` and `observedProperty.label` properties.
+--
+
+=====
+
+====

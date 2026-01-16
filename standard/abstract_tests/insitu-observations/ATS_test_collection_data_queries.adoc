@@ -20,7 +20,7 @@ Check that the value of the returned HTTP status header is 200.
 
 [.component,class=step]
 --
-In the `collections` array in the returned document, check that each collection has a `data_queries` array containing at least `area`, `locations` and `radius`.
+In the `collections` array in the returned document, check that each collection has a `data_queries` array containing `area`, `locations` and `radius`.
 --
 
 =====

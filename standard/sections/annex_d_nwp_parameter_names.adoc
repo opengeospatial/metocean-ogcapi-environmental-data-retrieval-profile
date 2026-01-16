@@ -1,0 +1,29 @@
+[appendix]
+[[appendix-d]]
+:appendix-caption: Annex
+== NWP Global Deterministic parameter name matrix
+
+[cols="10,10",options="header"]
+|===
+|Parameter|ECMWF short name
+|Geopotential Height | gh
+|Temperature | t
+|Wind zonal velocity (u) | u
+|Wind meridional velocity (v) | v
+|Relative Humidity | r
+|Mean Sea Level Pressure (MSLP) | msl
+|2-m Temperature | 2t
+|2-m minimum temperature in the last 3 hours | mn2t3
+|2-m maximum temperature in the last 3 hours | mx2t3
+|2-m minimum temperature in the last 6 hours | mn2t6
+|2-m maximum temperature in the last 6 hours | mx2t6
+|2m dewpoint temperature | 2d
+|10m u | 10u
+|10m v | 10v
+|10m wind gust | 10fg
+|Total Precipitation | tp
+|Total solid precipitation | TODO fix
+|CAPE | cape
+|Total precipitable water | tcw
+|Total cloud cover | tcc
+|===

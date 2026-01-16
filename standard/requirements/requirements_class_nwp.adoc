@@ -1,7 +1,7 @@
-[[rc_insitu-observations]]
+[[rc_insitu-nwp]]
 [cols="1,4",width="90%"]
 |===
-|URI |https://eumetnet.github.io/spec/metocean-edr-profile/1/req/insitu-observations
+|URI |https://eumetnet.github.io/spec/metocean-edr-profile/1/req/nwp
 |Target type|Web API
 |Dependency |<<rc_core,Core>>
 |Dependency |<<rc_data-query-response-format,Data query response format>>

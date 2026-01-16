@@ -1,0 +1,53 @@
+[[ats_nwp_collection_data_queries]]
+====
+[%metadata]
+label:: /conf/nwp/collection_data_queries
+subject:: /req/nwp/collection_data_queries
+test-purpose:: Validate that a MetOcean EDR API has implemented the mandatory data query behaviour for NWP.
+
+[.component,class=test method]
+=====
+
+[.component,class=step]
+--
+Issue an HTTP GET request to path `/collections`.
+--
+
+[.component,class=step]
+--
+Check that the value of the returned HTTP status header is 200.
+--
+
+[.component,class=step]
+--
+In the `collections` array in the returned document, check that each collection has a `data_queries` array containing `position` and and `cube`.
+--
+
+[.component,class=step]
+--
+For a matching collection, issue an HTTP GET request to path `/collections/{collectionId}/position?coords=POINT(0 0)`.
+--
+
+[.component,class=step]
+--
+Check that the value of the returned HTTP status header is 200.
+--
+
+[.component,class=step]
+--
+For the same matching collection, issue an HTTP GET request to path `/collections/{collectionId}/instances`.
+--
+
+[.component,class=step]
+--
+Check that the value of the returned HTTP status header is 200.
+--
+
+[.component,class=step]
+--
+In the CoverageJSON response, ensure that the first value of ``domain.axes.t.values`` is equal to the last instance (``id``) from the `/collections/{collectionId}/instances` response captured earlier in this test.
+--
+
+=====
+
+====
