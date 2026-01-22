@@ -16,6 +16,7 @@ include::../requirements/insitu-observations/REQ_collection_data_queries.adoc[]
 Parameter names is an object, containing parameter objects with metadata about all parameters the collection contains.
 
 include::../requirements/insitu-observations/REQ_collection_parameter_names.adoc[]
+include::../recommendations/insitu-observations/REC_collection_parameter_names.adoc[]
 
 === Collection custom dimensions
 
