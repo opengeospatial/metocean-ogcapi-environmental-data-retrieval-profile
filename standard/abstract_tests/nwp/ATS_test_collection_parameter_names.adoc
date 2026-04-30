@@ -25,7 +25,7 @@ In the `collections` array in the returned document, check that each collection 
 
 [.component,class=step]
 --
-For each matching collection ``parameter_names`` object, check that all of the <<appendix-d>> ECMWF short names are present via each parameter's `observedProperty.id` and `observedProperty.label` properties.
+For each matching collection ``parameter_names`` object, check that all of the <<appendix-d>> ECMWF short names are present via each parameter name key, `id` and `description` properties.
 --
 
 =====
