@@ -1,8 +1,8 @@
-[[ats_core_coveragejson_referencing]]
+[[ats_data-query-response-format_referencing]]
 ====
 [%metadata]
-label:: /conf/core/coveragejson_referencing
-subject:: /req/core/coveragejson_referencing
+label:: /conf/data-query-response-format/referencing
+subject:: /req/data-query-response-format/referencing
 test-purpose:: Validate that a MetOcean EDR Profile API CoverageJSON response document provides correct domain referencing values.
 
 [.component,class=test method]

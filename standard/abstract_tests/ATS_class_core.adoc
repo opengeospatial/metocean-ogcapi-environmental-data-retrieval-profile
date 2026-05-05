@@ -2,7 +2,7 @@
 ====
 [%metadata]
 label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/core
-subject:: Requirements Class "core"
+subject:: Requirements Class "Core"
 classification:: Target Type:Web API
 ====
 
@@ -29,10 +29,6 @@ include::./core/ATS_test_collection_spatial_extent.adoc[]
 ==== Collection temporal extent
 
 include::./core/ATS_test_collection_temporal_extent.adoc[]
-
-==== CoverageJSON referencing
-
-include::./core/ATS_test_coveragejson_referencing.adoc[]
 
 ==== Collection parameter names
 

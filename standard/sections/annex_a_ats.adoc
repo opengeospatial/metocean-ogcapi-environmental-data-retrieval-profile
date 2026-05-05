@@ -10,3 +10,10 @@ include::../abstract_tests/ATS_class_core.adoc[]
 
 include::../abstract_tests/ATS_class_insitu-observations.adoc[]
 
+=== Conformance Class: Numerical Weather Prediction
+
+include::../abstract_tests/ATS_class_nwp.adoc[]
+
+=== Conformance Class: Data query response format
+
+include::../abstract_tests/ATS_class_data-query-response-format.adoc[]

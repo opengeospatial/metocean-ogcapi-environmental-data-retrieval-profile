@@ -1,0 +1,8 @@
+[[req_nwp_collection_data_queries]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/nwp/collection_data_queries*
+^|A |A collection SHALL support position and cube queries.
+^|B |Data queries without an instance identified (i.e. ``/collections/collectionId/position``) SHALL be interpreted by the server as the **latest** instance of a collection.
+^|C |Data queries providing a ``datetime`` parameter (i.e. timestep(s)) that is between two given timestamps SHALL trigger an exception (HTTP 400 Bad Request).
+|===

@@ -6,4 +6,5 @@
 |===
 |Date |Release |Editor | Primary clauses modified |Description
 |2024-09-16 | Template | Tom Kralidis |all | initial template
+|2026-01-16 | Draft | Tom Kralidis |all | add Requirements and Conformance for NWP
 |===

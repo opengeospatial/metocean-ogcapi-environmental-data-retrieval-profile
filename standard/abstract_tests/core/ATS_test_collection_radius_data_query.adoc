@@ -20,7 +20,7 @@ Check that the value of the returned HTTP status header is 200.
 
 [.component,class=step]
 --
-In the response document, for each object in the `collections` array, if the `data_queries` property contains `radius`, check that the `link.variables` object for `radius` has a `within_units` array that contains at least `m`.
+In the response document, for each object in the `collections` array, if the `data_queries` property contains `radius`, check that the `link.variables` object for `radius` has a `within_units` array that contains `m`.
 --
 
 =====

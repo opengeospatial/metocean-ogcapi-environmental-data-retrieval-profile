@@ -1,0 +1,28 @@
+[[ats_data-query-response-format_encoding]]
+====
+[%metadata]
+label:: /conf/data-query-response-format/encoding
+subject:: /req/data-query-response-format/encoding
+test-purpose:: Validate that a MetOcean EDR API has the correct response format for data queries.
+
+[.component,class=test method]
+=====
+
+[.component,class=step]
+--
+Issue an HTTP GET request to path `/collections`.
+--
+
+[.component,class=step]
+--
+Check that the value of the returned HTTP status header is 200.
+--
+
+[.component,class=step]
+--
+In the returned document, for each object in `data_queries` for each collection in `collections` make a corresponding data query request and check that the returned response has status 200 and has an HTTP response header `Content-Type` with value `application/vnd.cov+json`.
+--
+
+=====
+
+====

@@ -1,0 +1,15 @@
+[[ats_data-query-response-format]]
+====
+[%metadata]
+label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/data-query-response-format
+subject:: Requirements Class "Data query response format"
+classification:: Target Type:Web API
+====
+
+==== Encoding
+
+include::./data-query-response-format/ATS_test_encoding.adoc[]
+
+==== Referencing
+
+include::./data-query-response-format/ATS_test_referencing.adoc[]

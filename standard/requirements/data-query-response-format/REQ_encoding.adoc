@@ -1,0 +1,6 @@
+[[req_data-query-response-format_encoding]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/data-query-response-format/encoding*
+^|A |All data queries SHALL support CoverageJSON as a response format.
+|===

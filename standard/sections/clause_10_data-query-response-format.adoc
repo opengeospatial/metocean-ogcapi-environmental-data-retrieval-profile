@@ -1,0 +1,17 @@
+== Data query response format
+
+=== Requirements Class "Data query response format"
+
+include::../requirements/requirements_class_data-query-response-format.adoc[]
+
+=== Encoding
+
+The response format for data queries.
+
+include::../requirements/data-query-response-format/REQ_encoding.adoc[]
+
+=== CoverageJSON referencing
+
+Coordinate referencing metadata in CoverageJSON.
+
+include::../requirements/data-query-response-format/REQ_referencing.adoc[]

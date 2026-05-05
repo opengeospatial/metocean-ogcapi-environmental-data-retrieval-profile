@@ -51,11 +51,17 @@ include::sections/clause_7_core.adoc[]
 
 include::sections/clause_8_insitu-observations.adoc[]
 
+include::sections/clause_9_nwp.adoc[]
+
+include::sections/clause_10_data-query-response-format.adoc[]
+
 include::sections/annex_a_ats.adoc[]
 
 include::sections/annex_b_schemas.adoc[]
 
 include::sections/annex_c_examples.adoc[]
+
+include::sections/annex_d_nwp_parameter_names.adoc[]
 
 include::sections/annex_e_bibliography.adoc[]
 
