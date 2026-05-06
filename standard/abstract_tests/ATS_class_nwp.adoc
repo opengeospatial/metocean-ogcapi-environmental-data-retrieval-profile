@@ -1,7 +1,7 @@
 [[ats_nwp]]
 ====
 [%metadata]
-label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/nwp
+label:: http://www.opengis.net/spec/profile/metocean-ogcapi-environmental-data-retrieval/1.0/conf/nwp
 subject:: Requirements Class "Numerical Weather Prediction"
 classification:: Target Type:Web API
 ====

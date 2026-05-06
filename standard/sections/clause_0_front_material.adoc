@@ -22,6 +22,6 @@ All questions regarding this submission should be directed to the editor or the 
 
 |===
 ^|Name  ^|Affiliation
-| Håvard Futsæter (editor) | MET Norway
+| Håvard Futsæter (editor) | Norway Meteorological Institute
 | Tom Kralidis (editor) | Meteorological Service of Canada
 |===

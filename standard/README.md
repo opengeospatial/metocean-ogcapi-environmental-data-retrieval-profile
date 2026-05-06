@@ -1,35 +1,19 @@
-# metocean-edr-profile
+= Standard template in Metanorma
 
-## Overview
+== Content
 
-This directory contains the report and provides instructions for managing the document.
+This repository contains the content for an OGC standard.
 
-### Dependencies
+* `document.adoc` - the main standard document with references to all sections
+* remaining ``adoc``s - each section of the standard document is in a separate document: follow directions in each document to populate
+* `figures` - figures go here
+* `images` - Image files for graphics go here. Image files for figures go in the `figures` directory. Only place in here images not used in figures (e.g., as parts of tables, as logos, etc.)
+* `requirements` - directory for requirements and requirement classes to be referenced in `clause_7_normative_text.adoc`
+* `code` - sample code to accompany the standard, if desired
+* `abstract_tests` - the Abstract Test Suite comprising one test for every requirement, optional
+* `UML` - UML diagrams, if applicable
 
-Documentation is managed with [Asciidoctor](https://asciidoctor.org).
+== Building
 
-Link checking is managed with [asciidoc-link-check](https://www.npmjs.com/package/asciidoc-link-check).
+Run `make`.
 
-PDF generation is managed with [asciidoctor-pdf](https://www.npmjs.com/package/asciidoctor-pdf).
-
-```bash
-apt-get install pandoc
-npm install asciidoctor asciidoctor-pdf asciidoc-link-check
-```
-### Building the document
-
-```bash
-# create HTML (single page)
-asciidoctor --trace -o metocean-edr-profile.html index.adoc
-# create PDF
-asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o metocean-edr-profile.pdf index.adoc
-# create Word document
-asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output metocean-edr-profile.docx
-```
-
-# check links
-```bash
-find . -name "*.adoc" -exec asciidoc-link-check -p -c asciidoc-link-check-config.json {} \;
-```
-
-**Note**: `Makefile` provides shortcuts to these commands if you are able to run `make`.

@@ -1,18 +1,10 @@
-FILE_BASENAME=metocean-edr-profile
-
 html:
-	asciidoctor --verbose --trace -o ${FILE_BASENAME}.html index.adoc
+	asciidoctor --verbose --trace -o document.html document.adoc
 
-pdf:
-	asciidoctor --verbose --trace -r asciidoctor-pdf --trace -b pdf -o ${FILE_BASENAME}.pdf index.adoc
-
-docx:
-	asciidoctor --verbose --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output ${FILE_BASENAME}.docx
-
-linkcheck:
-	find . -name "*.adoc" -exec asciidoc-link-check -p -c ./asciidoc-link-check-config.json {} \;
+metanorma:
+	docker run -v "${PWD}":/metanorma -v ${HOME}/.fontist/fonts/:/config/fonts  metanorma/metanorma  metanorma compile --agree-to-terms -t ogc -x xml,html,doc,pdf document.adoc
 
 clean:
-	rm -f ${FILE_BASENAME}.html ${FILE_BASENAME}.pdf ${FILE_BASENAME}.docx
+	rm -f *.html *.xml *.xml.abort *.xml_tmp *.doc *.pdf *.pdf.err *.log.txt
 
-.PHONY: html pdf docx linkcheck clean
+.PHONY: html metanorma clean
