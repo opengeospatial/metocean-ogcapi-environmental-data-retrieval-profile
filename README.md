@@ -3,7 +3,7 @@
 # Draft Specifications
 
 * MetOcean Profile for OGC API - Environmental Data Retrieval (DRAFT)
-** Editor's draft [HTML](https://docs.ogc.org/DRAFTS/26-027.html) or [PDF](https://docs.ogc.org/DRAFTS/26-027.pdf)
+  * Editor's draft [HTML](https://docs.ogc.org/DRAFTS/26-027.html) or [PDF](https://docs.ogc.org/DRAFTS/26-027.pdf)
 
 Drafts are built daily based on the configuration contained in the [asciidoctor.json](https://github.com/opengeospatial/metocean-ogcapi-environmental-data-retrieval-profile/blob/main/asciidoctor.json) file.
 
