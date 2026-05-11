@@ -1,7 +1,7 @@
 [[ats_data-query-response-format]]
 ====
 [%metadata]
-label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/data-query-response-format
+label:: http://www.opengis.net/spec/profile/metocean-ogcapi-environmental-data-retrieval/1.0/conf/data-query-response-format
 subject:: Requirements Class "Data query response format"
 classification:: Target Type:Web API
 ====

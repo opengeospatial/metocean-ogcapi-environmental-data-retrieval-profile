@@ -1,7 +1,7 @@
 [[ats_insitu-observations]]
 ====
 [%metadata]
-label:: https://eumetnet.github.io/spec/metocean-edr-profile/1/conf/insitu-observations
+label:: http://www.opengis.net/spec/profile/metocean-ogcapi-environmental-data-retrieval/1.0/conf/insitu-observations
 subject:: Requirements Class "Insitu observations"
 classification:: Target Type:Web API
 ====

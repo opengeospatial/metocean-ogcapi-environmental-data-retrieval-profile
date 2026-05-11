@@ -1,37 +1,29 @@
-:title: MetOcean EDR Profile
-:titletext: {title}
-:version: 0.1.0
-:date: {docdate}
-:copyright: Copyright © 2025 EUMETNET
-:doctype: book
+= MetOcean Profile for OGC API - Environmental Data Retrieval
+:doctype: standard
+:docsubtype: profile
 :encoding: utf-8
 :lang: en
-:toc:
-:toc-placement!:
-:toclevels: 3
-:sectnums:
-:sectnumlevels: 4
-:sectanchors:
-
-= {title}
-
-<<<
-[cols = "<",frame = "none",grid = "none"]
-|===
-|{set:cellbgcolor:#FFFFFF}
-|[big]*The provision of Open Access to Public meteorological Data and Development of Shared federated Data Infrastructure for the Development of information Products and Services*
-|Date: {docdate}
-|Version: {version}
-|Document location: TBD
-|Document status: DRAFT
-|RODEO project partnersfootnote:[https://rodeo-project.eu/partners/#project-partners]
-|{copyright}
-|===
-
-<<<
-toc::[]
-<<<
-
+:status: draft
+:committee: technical
+:draft: 1.0
+:external-id: http://www.opengis.net/doc/profile/metocean-ogcapi-environmental-data-retrieval/1.0
+:docnumber: 26-027
+:received-date: 2026-05-08
+:issued-date: 2026-05-08
+:published-date: 2026-05-08
+:fullname: Håvard Futsæter
+:role: editor
+:fullname_2: Tom Kralidis
+:keywords: ogcdoc, MetOcean, OGC document, API, environmenta data retrieval, EDR, openapi, html
+:submitting-organizations: Norwegian Meteorological Institut; Meteorological Service of Canada
+:mn-document-class: ogc
+:mn-output-extensions: xml,html,doc,pdf
+:local-cache-only:
+:data-uri-image:
+:pdf-uri: ./document.pdf
+:xml-uri: ./document.xml
+:doc-uri: ./document.doc
+:edition: 1.0
 
 include::sections/clause_0_front_material.adoc[]
 
