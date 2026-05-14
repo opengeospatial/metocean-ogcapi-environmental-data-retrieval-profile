@@ -13,7 +13,7 @@ document.xml
 document.xml.abort
 *.xml_tmp
 *.notfound
-standard/iev
-standard/relaton
+profile/iev
+profile/relaton
 
 _tmp_images_*
