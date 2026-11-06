@@ -4,5 +4,6 @@
 |URI |http://www.opengis.net/spec/profile/metocean-ogcapi-environmental-data-retrieval/1.0/req/core
 |Target type|Web API
 |Dependency |OGC API - Environmental Data Retrieval Standard - Part 1: Core (2023) footnote:[https://docs.ogc.org/is/19-086r6/19-086r6.html]
-|Pre-conditions |The API conforms to OGC API - Environmental Data Retrieval - Part 1: Core, Requirements Class: Core and Requirements Class: Collections
+|Dependency |MetOcean Common Profile for OGC API (2026) footnote:[https://docs.ogc.org/DRAFTS/26-039.html]
+|Pre-conditions |The API conforms to OGC API - Environmental Data Retrieval - Part 1: Core, Requirements Class: Core and Requirements Class: Collections and the MetOcean Common Profile for OGC API: Requirements Class: Collections and Requirements Class: Collection Parameters
 |===
