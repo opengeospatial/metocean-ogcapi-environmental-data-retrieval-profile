@@ -1,6 +1,6 @@
-== Datasets - Insitu observations
+== Datasets - Insitu Observations
 
-=== Requirements Class "Datasets - Insitu observations"
+=== Requirements Class "Datasets - Insitu Observations"
 
 include::../requirements/requirements_class_datasets-insitu-observations.adoc[]
 
