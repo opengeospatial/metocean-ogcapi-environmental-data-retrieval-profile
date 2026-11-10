@@ -3,7 +3,7 @@
 [%metadata]
 label:: /conf/datasets-numerical-weather-prediction/collection_granularity
 subject:: /req/datasets-numerical-weather-prediction/collection_granularity
-test-purpose:: Validate that a MetOcean EDR Numerical Weather Predictions Dataset has implemented the mandatory granularity for NWP.
+test-purpose:: Validate that a MetOcean EDR Numerical Weather Prediction Dataset has implemented the mandatory granularity for NWP.
 
 [.component,class=test method]
 =====
