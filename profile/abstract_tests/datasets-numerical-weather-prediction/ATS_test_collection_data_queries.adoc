@@ -3,7 +3,7 @@
 [%metadata]
 label:: /conf/datasets-numerical-weather-prediction/collection_data_queries
 subject:: /req/datasets-numerical-weather-prediction/collection_data_queries
-test-purpose:: Validate that a MetOcean EDR Numerical Weather Predictions Datase has implemented the mandatory data query behaviour for NWP.
+test-purpose:: Validate that a MetOcean EDR Numerical Weather Prediction Dataset has implemented the mandatory data query behaviour for NWP.
 
 [.component,class=test method]
 =====
