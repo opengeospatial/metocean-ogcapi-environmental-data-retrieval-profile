@@ -1,9 +1,9 @@
-[[ats_insitu-observations_collection_data_queries]]
+[[ats_datasets-insitu-observations_collection_data_queries]]
 ====
 [%metadata]
-label:: /conf/insitu-observations/collection_data_queries
-subject:: /req/insitu-observations/collection_data_queries
-test-purpose:: Validate that a MetOcean EDR Insitu observations Profile API has implemented the mandatory data queries.
+label:: /conf/datasets-insitu-observations/collection_data_queries
+subject:: /req/datasets-insitu-observations/collection_data_queries
+test-purpose:: Validate that a MetOcean EDR Insitu Observations Dataset has implemented the mandatory data queries.
 
 [.component,class=test method]
 =====

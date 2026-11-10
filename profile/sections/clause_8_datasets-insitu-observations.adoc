@@ -1,0 +1,24 @@
+== Datasets - Insitu observations
+
+=== Requirements Class "Datasets - Insitu observations"
+
+include::../requirements/requirements_class_datasets-insitu-observations.adoc[]
+
+=== Collection data queries
+
+The types of data queries implemented in a collection.
+
+include::../requirements/datasets-insitu-observations/REQ_collection_data_queries.adoc[]
+
+=== Collection custom dimensions
+
+The custom dimensions for which you can query the collection.
+
+include::../requirements/datasets-insitu-observations/REQ_collection_custom_dimensions.adoc[]
+
+=== CoverageJSON parameters
+
+The metadata about parameters in CoverageJSON.
+
+include::../requirements/datasets-insitu-observations/REQ_coveragejson_parameters.adoc[]
+

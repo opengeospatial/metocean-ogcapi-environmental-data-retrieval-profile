@@ -1,0 +1,11 @@
+== Datasets - Numerical Weather Prediction
+
+=== Requirements Class "Datasets - Numerical Weather Prediction"
+
+include::../requirements/requirements_class_datasets-numerical-weather-prediction.adoc[]
+
+=== Collection data queries
+
+The types of data queries implemented in a collection.
+
+include::../requirements/datasets-numerical-weather-prediction/REQ_collection_data_queries.adoc[]

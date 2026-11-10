@@ -6,13 +6,13 @@
 
 include::../abstract_tests/ATS_class_core.adoc[]
 
-=== Conformance Class: Insitu observations
+=== Conformance Class: Datasets - Insitu Observations
 
-include::../abstract_tests/ATS_class_insitu-observations.adoc[]
+include::../abstract_tests/ATS_class_datasets-insitu-observations.adoc[]
 
-=== Conformance Class: Numerical Weather Prediction
+=== Conformance Class: Datasets - Numerical Weather Prediction
 
-include::../abstract_tests/ATS_class_nwp.adoc[]
+include::../abstract_tests/ATS_class_datasets-numerical-weather-prediction.adoc[]
 
 === Conformance Class: Data query response format
 

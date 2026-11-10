@@ -41,9 +41,9 @@ include::sections/clause_6_informative_text.adoc[]
 
 include::sections/clause_7_core.adoc[]
 
-include::sections/clause_8_insitu-observations.adoc[]
+include::sections/clause_8_datasets-insitu-observations.adoc[]
 
-include::sections/clause_9_nwp.adoc[]
+include::sections/clause_9_datasets-numerical-weather-prediction.adoc[]
 
 include::sections/clause_10_data-query-response-format.adoc[]
 
