@@ -1,9 +1,9 @@
-[[ats_insitu-observations_coveragejson_parameters]]
+[[ats_datasets-insitu-observations_coveragejson_parameters]]
 ====
 [%metadata]
-label:: /conf/insitu-observations/coveragejson_parameters
-subject:: /req/insitu-observations/coveragejson_parameters
-test-purpose:: Validate that a MetOcean EDR Insitu observations Profile API has required metadata in CoverageJSON parameters.
+label:: /conf/datasets-insitu-observations/coveragejson_parameters
+subject:: /req/datasets-insitu-observations/coveragejson_parameters
+test-purpose:: Validate that a MetOcean EDR Insitu Observations Dataset has required metadata in CoverageJSON parameters.
 [.component,class=test method]
 =====
 

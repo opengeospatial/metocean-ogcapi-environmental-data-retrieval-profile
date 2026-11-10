@@ -6,34 +6,6 @@ subject:: Requirements Class "Core"
 classification:: Target Type:Web API
 ====
 
-==== OpenAPI
-
-include::./core/ATS_test_openapi.adoc[]
-
-==== Collection identifier
-
-include::./core/ATS_test_collection_identifier.adoc[]
-
-==== Collection title
-
-include::./core/ATS_test_collection_title.adoc[]
-
-==== Collection license
-
-include::./core/ATS_test_collection_license.adoc[]
-
-==== Collection spatial extent
-
-include::./core/ATS_test_collection_spatial_extent.adoc[]
-
-==== Collection temporal extent
-
-include::./core/ATS_test_collection_temporal_extent.adoc[]
-
-==== Collection parameter names
-
-include::./core/ATS_test_collection_parameter_names.adoc[]
-
 ==== Collection radius data query
 
 include::./core/ATS_test_collection_radius_data_query.adoc[]

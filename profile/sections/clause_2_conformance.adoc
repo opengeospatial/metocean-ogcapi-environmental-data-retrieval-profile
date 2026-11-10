@@ -9,7 +9,7 @@ Implementors of EDR API are required to comply with the MetOcean EDR Profile.  A
 This standard identifies the following Requirements Classes which define the functional requirements.
 
 * "Core"
-* "Observations"
-* "Numerical Weather Prediction"
+* "Datasets - Insitu Observations"
+* "Datasets - Numerical Weather Prediction"
 
 Compliant implementation of this profile requires conformance to at least the "Core" Requirements Class.

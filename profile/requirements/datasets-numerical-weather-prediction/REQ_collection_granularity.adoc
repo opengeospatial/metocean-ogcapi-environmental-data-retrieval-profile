@@ -1,0 +1,8 @@
+[[req_datasets-numerical-weather-prediction_collection_granularity]]
+[width="90%",cols="2,6a"]
+|===
+^|*Requirement {counter:req-id}* |*/req/datasets-numerical-weather-prediction/collection_granularity*
+^|A |A collection instance SHALL represent and describe a model run (i.e. ``/collections/{collectionId}/instances/{instanceId}``).
+^|B |A collection instance identifier (``id``) SHALL be represented by an RFC3339 datestamp.
+^|C |A collection's temporal instance or interval SHALL represent a timestep or timesteps of a model run (e.g. ``/collections/{collectionId}/instances/{instanceId}/position?datetime=2026-01-16T17:00:00Z``).
+|===

@@ -1,9 +1,9 @@
-[[ats_nwp_collection_data_queries]]
+[[ats_datasets-numerical-weather-prediction_collection_data_queries]]
 ====
 [%metadata]
-label:: /conf/nwp/collection_data_queries
-subject:: /req/nwp/collection_data_queries
-test-purpose:: Validate that a MetOcean EDR API has implemented the mandatory data query behaviour for NWP.
+label:: /conf/datasets-numerical-weather-prediction/collection_data_queries
+subject:: /req/datasets-numerical-weather-prediction/collection_data_queries
+test-purpose:: Validate that a MetOcean EDR Numerical Weather Prediction Dataset has implemented the mandatory data query behaviour for NWP.
 
 [.component,class=test method]
 =====

@@ -1,8 +1,0 @@
-[[req_insitu-observations_collection_parameter_names]]
-[width="90%",cols="2,6a"]
-|===
-^|*Requirement {counter:req-id}* |*/req/insitu-observations/collection_parameter_names*
-^|A |Each object in `parameter_names` SHALL specify a property `metocean:standard_name` with value set to one of the values listed in `values` array for custom dimension with `id` with value `standard_names`.
-^|B |Each object in `parameter_names` SHALL specify a property `metocean:level` with value set to one of the values listed in `values` array for custom dimension with `id` with value `levels`.
-^|C | Each object in `parameter_names` SHALL specify `measurementType`.
-|===
