@@ -5,7 +5,6 @@
 |Target type|Web API
 |Dependency |<<rc_core,Core>>
 |Dependency |<<rc_data-query-response-format,Data query response format>>
-|Pre-conditions |The API conforms to MetOcean Common Profile for OGC API: Requirements Class: Insitu observations
 |Dependency |MetOcean Common Profile for OGC API (2026) footnote:[https://docs.ogc.org/DRAFTS/26-039.html]
 |Pre-conditions |The API conforms to MetOcean Common Profile for OGC API: Requirements Class: Numerical Weather Prediction
 |===
